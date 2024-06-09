@@ -1,4 +1,5 @@
 -- Bloco anônimo.
+
 SET SERVEROUTPUT ON
 
 DECLARE
