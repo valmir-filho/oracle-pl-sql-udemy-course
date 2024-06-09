@@ -1,3 +1,5 @@
+-- Criação do usuário HR.
+
 -- Configura a sessão para o pluggable database XEPDB1.
 ALTER SESSION SET CONTAINER = XEPDB1;
 
