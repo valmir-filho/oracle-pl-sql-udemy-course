@@ -76,6 +76,6 @@ BEGIN
    FROM   employees
    GROUP BY job_id;
    DBMS_OUTPUT.PUT_LINE('Cargo: ' || vJob_id);
-   DBMS_OUTPUT.PUT_LINE('Méia de salários: ' || vAvg_Salary);
+   DBMS_OUTPUT.PUT_LINE('Média de salários: ' || vAvg_Salary);
    DBMS_OUTPUT.PUT_LINE('Somatório de salários: ' || vSum_Salary);
 END;
