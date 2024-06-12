@@ -7,6 +7,7 @@ ACCEPT pDepartment_id PROMPT 'Digite o ID do departamento: '
 
 DECLARE
    vPercentual     NUMBER(3);
+   -- O "&" serve para substituir o valor do ACCEPT na variável em questão.
    vDepartment_id  employees.employee_id%type := &pdepartment_id;
 BEGIN
    IF vDepartment_id  =  80 -- Sales. 
@@ -25,8 +26,10 @@ BEGIN
            END IF;
        END IF;
   END IF;
+  
   DBMS_OUTPUT.PUT_LINE('Id do Departamento: ' || vDepartment_id);   
   DBMS_OUTPUT.PUT_LINE('Percentual: ' || vpercentual );   
+  
   UPDATE employees 
   SET    salary = salary * (1 + vpercentual / 100)
   WHERE department_id =  vDepartment_id;
