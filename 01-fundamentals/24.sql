@@ -38,3 +38,5 @@ FOR i IN 1..8 LOOP
 END LOOP;
 DBMS_OUTPUT.PUT_LINE('Total Final =  ' || to_char(vTotal,'99G999G999G999G999G999G999G999D99'));
 END;
+
+-- Obs.: O EXIT sem o label, sai do LOOP atual. Com o label do LOOP, saí de todos que estejam aninhados dentro desse label.
