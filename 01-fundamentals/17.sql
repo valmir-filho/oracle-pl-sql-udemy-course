@@ -11,13 +11,13 @@ se nenhuma linha foi afetada.
 SET SERVEROUTPUT ON
 
 DECLARE
-   vdepartment_id  employees.department_id%type := 60;
-   vpercentual     NUMBER(3) := 10;
+   vDepartment_id  employees.department_id%type := 60;
+   vPercentual     NUMBER(3) := 10;
 BEGIN
    -- Executa o UPDATE.
    UPDATE employees 
-   SET salary = salary * (1 + vpercentual / 100)
-   WHERE department_id =  vdepartment_id;
+   SET salary = salary * (1 + vPercentual / 100)
+   WHERE department_id =  vDepartment_id;
    -- Verifica o resultado do UPDATE.
    IF SQL%FOUND THEN
        DBMS_OUTPUT.PUT_LINE('Update bem-sucedido.');
