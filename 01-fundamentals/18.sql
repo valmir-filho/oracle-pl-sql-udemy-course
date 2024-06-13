@@ -27,7 +27,7 @@ BEGIN
        END IF;
   END IF;
   
-  DBMS_OUTPUT.PUT_LINE('Id do Departamento: ' || vDepartment_id);   
+  DBMS_OUTPUT.PUT_LINE('ID do Departamento: ' || vDepartment_id);   
   DBMS_OUTPUT.PUT_LINE('Percentual: ' || vpercentual );   
   
   UPDATE employees 
