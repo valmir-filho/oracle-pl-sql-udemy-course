@@ -1,4 +1,4 @@
--- Loop básico.
+-- LOOP básico.
 
 SET SERVEROUTPUT ON
 
