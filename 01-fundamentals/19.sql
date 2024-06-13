@@ -21,8 +21,8 @@ BEGIN
    ELSE
        vPercentual := 5;
    END IF;
-  DBMS_OUTPUT.PUT_LINE('Id do Departamento: ' || vDepartment_id);   
-  DBMS_OUTPUT.PUT_LINE('percentual: ' || vPercentual );   
+  DBMS_OUTPUT.PUT_LINE('ID do Departamento: ' || vDepartment_id);   
+  DBMS_OUTPUT.PUT_LINE('Percentual: ' || vPercentual );   
   UPDATE employees 
   SET    salary = salary * (1 + vPercentual / 100)
   WHERE department_id =  vDepartment_id;
