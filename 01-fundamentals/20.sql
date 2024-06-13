@@ -2,11 +2,11 @@
 
 SET SERVEROUTPUT ON
 
-ACCEPT pdepartment_id PROMPT 'Digite o ID do departamento: '
+ACCEPT pDepartment_id PROMPT 'Digite o ID do departamento: '
 
 DECLARE
    vPercentual     NUMBER(3);
-   vDepartment_id  employees.employee_id%type := &pdepartment_id;
+   vDepartment_id  employees.employee_id%type := &pDepartment_id;
 BEGIN
    CASE  vDepartment_id 
    WHEN  80 
