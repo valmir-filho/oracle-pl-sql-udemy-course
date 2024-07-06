@@ -19,7 +19,7 @@ BEGIN
 EXCEPTION
   WHEN NO_DATA_FOUND 
   THEN
-     RAISE_APPLICATION_ERROR(-20001, 'Empregado nÃ£o encontrado, id = ' || 
+     RAISE_APPLICATION_ERROR(-20001, 'Empregado não encontrado, id = ' || 
      TO_CHAR(vEmployee_id));
   WHEN OTHERS 
   THEN
