@@ -1,4 +1,4 @@
--- Criando uma Procedure de Banco de Dados.
+-- Criando uma procedure de banco de dados.
 
 CREATE OR REPLACE PROCEDURE PRC_INSERE_EMPREGADO
   (pfirst_name    IN VARCHAR2,
