@@ -25,20 +25,6 @@
 - Section 17 - PL/SQL Fundamentals - Managing Object Dependencies;
 - Section 18 - PL/SQL Fundamentals - Debugging Procedures and Functions;
 - Section 19 - PL/SQL Fundamentals - Database Packages;
-- Section 20 - PL/SQL Fundamentals - Database DML Triggers;
-- Section 21 - Advanced PL/SQL - Installation of Oracle Database 21c XE;
-- Section 22 - Advanced PL/SQL - Downloading and Installing Oracle SQL Developer;
-- Section 23 - Advanced PL/SQL - Using SYS_REFCURSOR;
-- Section 24 - Advanced PL/SQL - Bulk Collect;
-- Section 25 - Advanced PL/SQL - Bulk Collect - FOR ALL and LIMIT;
-- Section 26 - Advanced PL/SQL - Dynamic SQL - Execute Immediate and Bind Variables;
-- Section 27 - Advanced PL/SQL - Dynamic SQL - DBMS_SQL;
-- Section 28 - Advanced PL/SQL - Explicit Cursor with Dynamic SQL;
-- Section 29 - Advanced PL/SQL - DBMS_SCHEDULER Package;
-- Section 30 - Advanced PL/SQL - UTL_FILE Package;
-- Section 31 - Advanced PL/SQL - FLASHBACK;
-- Section 32 - Advanced PL/SQL - LOBs – Large Objects;
-- Section 33 - Advanced PL/SQL - Table Functions;
-- Section 34 - Career Opportunities using Oracle Technologies.
+- Section 20 - PL/SQL Fundamentals - Database DML Triggers.
 
 ### Used IDE: Oracle SQL Developer.
