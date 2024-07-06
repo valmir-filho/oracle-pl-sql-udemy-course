@@ -15,9 +15,7 @@ BEGIN
   INTO   vfirst_name, vlast_name
   FROM   employees
   WHERE  employee_id = vEmployee_id;
-
   DBMS_OUTPUT.PUT_LINE('Empregado: ' || vfirst_name || ' ' || vlast_name);
- 
 EXCEPTION
   WHEN NO_DATA_FOUND 
   THEN
