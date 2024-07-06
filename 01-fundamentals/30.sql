@@ -1,4 +1,4 @@
--- Cursos FOR LOOP com parâmetros.
+-- Cursor FOR LOOP com parâmetros.
 
 SET SERVEROUTPUT ON
 
