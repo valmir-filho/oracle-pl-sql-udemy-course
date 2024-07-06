@@ -42,7 +42,7 @@ EXCEPTION
      RAISE_APPLICATION_ERROR(-20001, 'Erro Oracle ' || SQLCODE || SQLERRM);
 END;
 
--- Executando a Procedure pelo Bloco PL/SQL.
+-- Executando a procedure pelo bloco PL/SQL.
 
 BEGIN
   PRC_INSERE_EMPREGADO('David', 'Bowie','DBOWIE','515.127.4861',SYSDATE,'IT_PROG',15000,NULL,103,60);
