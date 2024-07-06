@@ -1,8 +1,11 @@
 -- Tratamento de exceções.
 
 SET SERVEROUTPUT ON
+  
 SET VERIFY OFF
+  
 ACCEPT  pEmployee_id PROMPT 'Digite o Id do Empregado: '
+
 DECLARE
   vFirst_name   employees.first_name%TYPE;
   vLast_name    employees.last_name%TYPE;
@@ -23,7 +26,4 @@ EXCEPTION
   WHEN OTHERS 
   THEN
      RAISE_APPLICATION_ERROR(-20002, 'Erro Oracle - ' || SQLCODE || SQLERRM);
-
 END;
-
-
